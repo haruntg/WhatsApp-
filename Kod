@@ -1,0 +1,5 @@
+@echo off
+set /p numara="Numara girin: "
+set "numara=+9%numara%"
+start https://wa.me/%numara%
+
